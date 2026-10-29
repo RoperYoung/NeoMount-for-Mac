@@ -12,17 +12,17 @@
 
 NAS、家里的共享文件夹、远程服务器，集中放在一个地方。打开开关就连接，在访达里照常使用；关掉主窗口，NeoMount 仍留在菜单栏。
 
+### 完整管理窗口
+
+<p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
+
 ### 菜单栏（状态栏）
 
-<p align="center"><img src="assets/menubar-connected-zh.png" width="560" alt="NeoMount 菜单栏浮窗"></p>
+<p align="center"><img src="assets/menubar-connected-zh.png" width="400" alt="NeoMount 菜单栏浮窗"></p>
 
 顶部硬盘图标的数字表示当前已连接数量，也可以在偏好设置中隐藏。点开图标，每个服务器的状态一目了然：用开关连接或断开，连接后点文件夹即可在访达中打开。底部可以添加服务器、进入完整管理窗口；更多菜单里可调整自动重连、重试间隔和外观。
 
 关掉主窗口不会退出 NeoMount，日常操作留在这个小浮窗里就够了。
-
-### 完整管理窗口
-
-<p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
 
 ### 连接与管理
 

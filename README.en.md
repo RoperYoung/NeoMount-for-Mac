@@ -10,17 +10,17 @@
 
 Keep your NAS, shared folders and remote servers in one place. Connect with a switch, then work with your files in Finder. Close the main window and NeoMount stays in the menu bar.
 
+### Full connection manager
+
+<p align="center"><img src="assets/main-en.jpg" width="900" alt="NeoMount running on macOS"></p>
+
 ### Menu bar
 
-<p align="center"><img src="assets/menubar-connected-zh.png" width="560" alt="NeoMount menu bar panel, shown in Chinese"></p>
+<p align="center"><img src="assets/menubar-connected-zh.png" width="400" alt="NeoMount menu bar panel, shown in Chinese"></p>
 
 The badge on the menu bar icon shows how many drives are connected; you can hide it in Preferences. Click the icon to see each server’s status, connect or disconnect with a switch, or open a connected drive in Finder. Add a server or open the full manager from the bottom row. The More menu gives quick access to auto-reconnect, retry intervals and appearance.
 
 Closing the main window keeps NeoMount available here.
-
-### Full connection manager
-
-<p align="center"><img src="assets/main-en.jpg" width="900" alt="NeoMount running on macOS"></p>
 
 ### Connect and manage
 
