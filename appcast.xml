@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>NeoMount</title>
+        <item>
+            <title>1.10.2</title>
+            <pubDate>Thu, 29 Oct 2026 12:33:54 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>NeoMount 1.10.2</h2><p>免费使用的 macOS 菜单栏网络磁盘管理工具，支持 SMB、WebDAV、FTP、SFTP 和 NFS。</p><ul><li>支持简体中文与英文界面。</li><li>内置签名更新检查，安装前由你确认。</li><li>偏好设置新增关于区域，集中显示版本、GitHub 和更新入口。</li><li>微调图标上的 N，改善小尺寸下的透视与留白。</li></ul><p>A free macOS menu bar app for SMB, WebDAV, FTP, SFTP and NFS drives. Includes Chinese and English interfaces, signed update checks, an About section and refined app icons. Installation requires your confirmation.</p>]]></description>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.2/NeoMount-1.10.2-arm64.dmg" length="36470795" type="application/octet-stream" sparkle:edSignature="cUAKImQB7vyYkHL0DK/IdpTYcXp+5vGGLpsVvHONM/RF4aU4ALqLksXDcSEzitbr5uJgvzpTLQg32/EkGvJPDw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: rw+IOwIvEJ3NOqucpLkRdZaV2E/E/A86Yk+cbuwwPohwzoLyAT2tr+Sj2wvbhJxrelgB1zHoNjWYeOAfhWK7CQ==
+length: 1890
+-->
