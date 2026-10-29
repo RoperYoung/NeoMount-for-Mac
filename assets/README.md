@@ -1,3 +1,3 @@
-NeoMount screenshots captured on macOS. Example connections are not connected to live servers.
+NeoMount screenshots captured on macOS, without desktop backgrounds. `menubar-connected-zh.png` is a user-provided capture of two connected drives. Other screenshots use example configurations.
 
-NeoMount 实机窗口截图，使用未连接的示例配置，不包含真实服务器资料。
+NeoMount 实机窗口截图，不带桌面背景。`menubar-connected-zh.png` 由用户提供，展示两个已连接的磁盘；其余截图使用示例配置。
