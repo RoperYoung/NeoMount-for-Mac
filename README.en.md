@@ -2,7 +2,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">Your network drives, one click away.</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg"><strong>Download NeoMount 1.10.3</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg"><strong>Download NeoMount 1.10.6</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">Release notes</a> ·
   <a href="README.md">简体中文</a>
 </p>
@@ -27,6 +27,7 @@ Closing the main window keeps NeoMount available here.
 - **Five protocols:** SMB, WebDAV, FTP, SFTP and NFS.
 - **Paste an address:** fill in the protocol, host, port and path from a full URL. Unicode paths and custom ports are supported.
 - **Reconnect when needed:** choose a retry interval of 15 seconds, 30 seconds, 1 minute or 5 minutes. Manually disconnecting pauses retries for that connection.
+- **Spot unavailable mounts:** checks whether the mounted directory can be read and offers Reconnect when needed. The old volume is unmounted normally first; busy disks stay mounted.
 - **Start your way:** launch at login and choose which servers should connect when the app starts.
 - **Take your settings with you:** import and export connections without including passwords.
 - **Stay up to date:** check for new releases in the app. Updates come from this repository and are verified before installation.
@@ -42,13 +43,13 @@ Closing the main window keeps NeoMount available here.
 
 ### Install
 
-1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
+1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
 2. Open NeoMount from Applications and add a server.
 3. Optionally enable launch at login in Preferences and automatic connection for individual servers.
 
 **Upgrading from 1.10.2 or earlier:** version 1.10.3 introduces a unified app identifier and requires a one-time DMG installation. Turn off launch at login in the old version, quit it, and replace NeoMount in Applications. Your connections, saved passwords and common preferences are retained. Re-enable launch at login in the new version if needed. Future releases support in-app updates.
 
-This release requires **macOS 13 or later on Apple Silicon**. An Intel build is not available. The interface follows the app’s macOS language preference. To choose English or Simplified Chinese, go to **System Settings → General → Language & Region → Applications**.
+This release requires **macOS 13 or later on Apple Silicon**. An Intel build is not available. Choose System, Simplified Chinese or English in **Preferences → Appearance → Language**, then reopen the app to apply the change.
 
 ### Free to use · Privacy and security
 

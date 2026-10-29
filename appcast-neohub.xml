@@ -1,8 +1,23 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>NeoMount</title>
+        <item>
+            <title>1.10.6</title>
+            <pubDate>Thu, 29 Oct 2026 21:57:03 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.10.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!doctype html><html lang="zh-CN"><meta charset="utf-8"><h2>NeoMount 1.10.6</h2>
+<ul><li>新增挂载目录可读性检查，失效连接会显示原因，并提供“重新连接”。重连先正常卸载旧卷，磁盘忙时不会强制断开。</li><li>打开访达前检查磁盘状态，读取失败时在应用内说明原因。</li><li>偏好设置的外观卡片新增语言选择：跟随系统、简体中文、English，重新打开应用后生效。</li><li>缩小菜单栏图标与应用图标的硬盘主体，保留连接数量角标大小。</li></ul>
+<h2>English</h2><ul><li>Checks mounted directories for readability and offers Reconnect for unavailable connections. Reconnection waits for a normal unmount; busy disks are never forcibly disconnected.</li><li>Checks the disk before opening Finder and explains read failures in the app.</li><li>Adds System, Simplified Chinese and English choices under Preferences → Appearance. Reopen the app to apply a language change.</li><li>Reduces the drive artwork in menu bar and application icons, keeping the count badge unchanged.</li></ul></html>]]></description>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg" length="36512986" type="application/octet-stream" sparkle:edSignature="DijyntBVAIs/EPCxHHwsYicGlDE5vtXQQFHsU5A8GaMtvZMpR2TsBHRfWPf4YKrfd6VLWN8eTPmFsqcEqSIqDg=="/>
+        </item>
         <item>
             <title>1.10.3</title>
             <pubDate>Thu, 29 Oct 2026 13:02:50 +0800</pubDate>
@@ -18,10 +33,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 <h3>English</h3><ul><li>Removed opaque scrollbar gutters from Preferences, connection forms and other scrolling areas.</li><li>Restore normal window geometry after restarting instead of intermediate zoom sizes.</li><li>Unified app identifier: cn.neohub.neomount. Existing connections, saved passwords and common preferences are retained.</li></ul>
 <p>Version 1.10.2 and earlier require a one-time DMG installation. Disable launch at login in the old version and quit it before replacing the app. Re-enable launch at login in the new version if needed. Future versions support in-app updates.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg" length="36492943" type="application/octet-stream" sparkle:edSignature="Q0QAkASx7+5QYue0NqoVfXj9EO4412IOM9aDB3zkBoY4Zf+Dxu0PfipYw1moyujjfGokolCrR1Ncubs0PW0sAA=="></enclosure>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg" length="36492943" type="application/octet-stream" sparkle:edSignature="Q0QAkASx7+5QYue0NqoVfXj9EO4412IOM9aDB3zkBoY4Zf+Dxu0PfipYw1moyujjfGokolCrR1Ncubs0PW0sAA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: vXoLYJJi/PqpaxZ1Pc0w0j7OiVVJLU6BKXKppe/OP+pdq+gnTaEUPuY6pPr+wEAUHSGMALcvPjdIyW8G0+MPBg==
-length: 2464
+</rss>
+<!-- sparkle-signatures:
+edSignature: gqSkM9qcG3vOFb9xxRV+bUWh3mjpwbz8yui0b39uifSz+5n2eP9aCzEQYhYrKDpwgadwrAIYKHKi4FYvX+fcCQ==
+length: 4395
 -->
