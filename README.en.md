@@ -2,7 +2,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">Your network drives, one click away.</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.2/NeoMount-1.10.2-arm64.dmg"><strong>Download NeoMount 1.10.2</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg"><strong>Download NeoMount 1.10.3</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">Release notes</a> ·
   <a href="README.md">简体中文</a>
 </p>
@@ -11,6 +11,14 @@
 <p align="center"><img src="assets/main-en.jpg" width="900" alt="NeoMount running on macOS"></p>
 
 Keep your NAS, shared folders and remote servers in one place. Connect with a switch, then work with your files in Finder. Close the main window and NeoMount stays in the menu bar.
+
+### A small panel, always within reach
+
+<p align="center"><img src="assets/menubar-zh.jpg" width="386" alt="NeoMount menu bar panel, shown in Chinese"></p>
+
+The badge on the menu bar icon shows how many drives are connected; you can hide it in Preferences. Click the icon to see each server’s status, connect or disconnect with a switch, or open a connected drive in Finder. Add a server or open the full manager from the bottom row. The More menu gives quick access to auto-reconnect, retry intervals and appearance.
+
+Closing the main window keeps NeoMount available here.
 
 ### Connect and manage
 
@@ -32,9 +40,11 @@ Keep your NAS, shared folders and remote servers in one place. Connect with a sw
 
 ### Install
 
-1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.2/NeoMount-1.10.2-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
+1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
 2. Open NeoMount from Applications and add a server.
 3. Optionally enable launch at login in Preferences and automatic connection for individual servers.
+
+**Upgrading from 1.10.2 or earlier:** version 1.10.3 introduces a unified app identifier and requires a one-time DMG installation. Turn off launch at login in the old version, quit it, and replace NeoMount in Applications. Your connections, saved passwords and common preferences are retained. Re-enable launch at login in the new version if needed. Future releases support in-app updates.
 
 This release requires **macOS 13 or later on Apple Silicon**. An Intel build is not available. The interface follows the app’s macOS language preference. To choose English or Simplified Chinese, go to **System Settings → General → Language & Region → Applications**.
 

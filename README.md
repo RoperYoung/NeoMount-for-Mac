@@ -4,7 +4,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">把网络磁盘放进菜单栏。</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.2/NeoMount-1.10.2-arm64.dmg"><strong>下载 NeoMount 1.10.2</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg"><strong>下载 NeoMount 1.10.3</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">版本记录</a> ·
   <a href="README.en.md">English</a>
 </p>
@@ -13,6 +13,14 @@
 <p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
 
 NAS、家里的共享文件夹、远程服务器，集中放在一个地方。打开开关就连接，在访达里照常使用；关掉主窗口，NeoMount 仍留在菜单栏。
+
+### 菜单栏里，随手就能用
+
+<p align="center"><img src="assets/menubar-zh.jpg" width="386" alt="NeoMount 菜单栏浮窗"></p>
+
+顶部硬盘图标的数字表示当前已连接数量，也可以在偏好设置中隐藏。点开图标，每个服务器的状态一目了然：用开关连接或断开，连接后点文件夹即可在访达中打开。底部可以添加服务器、进入完整管理窗口；更多菜单里可调整自动重连、重试间隔和外观。
+
+关掉主窗口不会退出 NeoMount，日常操作留在这个小浮窗里就够了。
 
 ### 连接与管理
 
@@ -40,9 +48,11 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 
 ### 安装
 
-1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.2/NeoMount-1.10.2-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
+1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.3/NeoMount-1.10.3-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
 2. 在应用程序文件夹中打开 NeoMount，添加你的服务器。
 3. 如果想开机就能用，在偏好设置中开启登录时启动，并给需要的连接打开启动自动连接。
+
+**从 1.10.2 或更早版本升级：** 1.10.3 统一了应用标识，请下载 DMG 安装一次。先在旧版关闭登录启动并退出，再用新版替换应用程序中的 NeoMount；已有连接、已保存密码和常用偏好会保留，需要登录启动时在新版重新开启。之后可继续使用应用内自动更新。
 
 当前安装包适用于 **Apple Silicon（M 系列芯片）**，暂不提供 Intel 版本。界面跟随 macOS 的应用语言，可在「系统设置 → 通用 → 语言与地区 → 应用程序」中指定简体中文或 English。
 
