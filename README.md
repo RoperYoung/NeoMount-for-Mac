@@ -10,17 +10,19 @@
 </p>
 <p align="center">macOS 13+ · Apple Silicon · 免费使用 · 中英文界面</p>
 
-<p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
-
 NAS、家里的共享文件夹、远程服务器，集中放在一个地方。打开开关就连接，在访达里照常使用；关掉主窗口，NeoMount 仍留在菜单栏。
 
-### 菜单栏里，随手就能用
+### 菜单栏（状态栏）
 
-<p align="center"><img src="assets/menubar-zh.jpg" width="386" alt="NeoMount 菜单栏浮窗"></p>
+<p align="center"><img src="assets/menubar-connected-zh.png" width="560" alt="NeoMount 菜单栏浮窗"></p>
 
 顶部硬盘图标的数字表示当前已连接数量，也可以在偏好设置中隐藏。点开图标，每个服务器的状态一目了然：用开关连接或断开，连接后点文件夹即可在访达中打开。底部可以添加服务器、进入完整管理窗口；更多菜单里可调整自动重连、重试间隔和外观。
 
 关掉主窗口不会退出 NeoMount，日常操作留在这个小浮窗里就够了。
+
+### 完整管理窗口
+
+<p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
 
 ### 连接与管理
 
@@ -44,7 +46,7 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 <img src="assets/main-en.jpg" width="900" alt="NeoMount English interface">
 </details>
 
-<sub>截图来自 Mac 上实际运行的应用，仅保留应用窗口。连接名称和地址为示例，未连接真实服务器。</sub>
+<sub>截图来自 Mac 上实际运行的应用，仅保留应用窗口。菜单栏图展示两个已连接的磁盘；其余界面使用示例配置。</sub>
 
 ### 安装
 
