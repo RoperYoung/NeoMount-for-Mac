@@ -1,6 +1,16 @@
 # 安全与隐私 / Security & Privacy
 
-## 安装包与更新 / Distribution and updates
+## Mac App Store 版本 / Mac App Store edition
+
+Mac App Store 版本使用 Apple App Sandbox，并通过 App Store 更新，不包含 Sparkle，也不向 GitHub 检查或下载更新。连接设置、加密凭据和 SFTP 主机信任记录保存在该版本的本机应用容器中；网络磁盘挂载到应用有权访问的私有目录，仍可通过“在访达中打开”访问。导入导出文件仅在用户通过系统文件面板选择后访问。独立安装版与商店版的数据目录不同：可先从原版导出配置再导入商店版，密码需重新填写。点击帮助、隐私或其他外部网页链接时，网页服务会收到普通浏览请求信息。
+
+The Mac App Store edition uses Apple App Sandbox and receives updates through the App Store. It does not include Sparkle or contact GitHub to check for or download updates. Connection settings, encrypted credentials, and SFTP host-trust records stay in its local app container. Network drives mount in an app-accessible private directory and can be opened in Finder. Import and export access only files selected through the system file picker. The direct-download and store editions have separate data directories: export settings from the original app and import them into the store edition, then enter passwords again. Opening help, privacy, or other external web links sends normal browser request information to the destination website.
+
+The updater details below apply only to the direct-download edition. Both editions have no NeoMount cloud account, advertising, or usage analytics.
+
+以下更新器说明仅适用于独立安装版。两个版本均不提供 NeoMount 云端账号，不包含广告或使用行为统计。
+
+## 独立安装版与更新 / Direct-download distribution and updates
 
 请从 [RoperYoung/NeoMount-for-Mac Releases](https://github.com/RoperYoung/NeoMount-for-Mac/releases) 下载。正式发布的应用及 DMG 均使用 Developer ID 签名，并分别提交 Apple 公证、装订票据。签名主体为 Chengdu Zubuchuhu Education Technology Co., Ltd.，Team ID 为 `VD443NUPB6`。
 
@@ -12,13 +22,13 @@ Sparkle checks a signed appcast on GitHub, verifies the Ed25519 signature of eac
 
 ## 本机数据 / Local data
 
-连接信息保存在当前用户的 `~/Library/Application Support/NeoMount`，密码使用 CryptoKit AES-GCM 加密，目录和文件限制为当前用户访问。解密密钥也保存在本机同一用户目录内；这可避免密码直接写入普通配置，但无法抵御已经控制该 macOS 账户的程序。导出配置不包含密码。
+独立安装版的连接信息保存在当前用户的 `~/Library/Application Support/NeoMount`，密码使用 CryptoKit AES-GCM 加密，目录和文件限制为当前用户访问。解密密钥也保存在本机同一用户目录内；这可避免密码直接写入普通配置，但无法抵御已经控制该 macOS 账户的程序。导出配置不包含密码。
 
-Connection settings are stored in the current user’s `~/Library/Application Support/NeoMount` folder. Passwords are encrypted using CryptoKit AES-GCM with user-restricted file permissions. The decryption key is stored locally in the same user’s data directory. This keeps plaintext passwords out of ordinary configuration files, but does not protect against software that already controls that macOS account. Configuration exports exclude passwords.
+In the direct-download edition, connection settings are stored in the current user’s `~/Library/Application Support/NeoMount` folder. Passwords are encrypted using CryptoKit AES-GCM with user-restricted file permissions. The decryption key is stored locally in the same user’s data directory. This keeps plaintext passwords out of ordinary configuration files, but does not protect against software that already controls that macOS account. Configuration exports exclude passwords.
 
-NeoMount does not operate a cloud account service, collect usage analytics or include ad tracking. Network requests go to configured servers, GitHub for updates, and the usual macOS services used for mounting and trust checks. GitHub receives ordinary request information such as the client IP address when checking or downloading updates. Sparkle system profiling is disabled.
+NeoMount does not operate a cloud account service, collect usage analytics or include ad tracking. In the direct-download edition, network requests go to configured servers, GitHub for updates, and the usual macOS services used for mounting and trust checks. GitHub receives ordinary request information such as the client IP address when checking or downloading updates. Sparkle system profiling is disabled.
 
-NeoMount 没有云端账号、使用统计或广告追踪。联网用于你设置的服务器、GitHub 更新和 macOS 挂载及信任检查。更新请求会让 GitHub 收到正常请求信息（例如 IP 地址）；Sparkle 的系统信息上报已关闭。
+NeoMount 没有云端账号、使用统计或广告追踪。独立安装版联网用于你设置的服务器、GitHub 更新和 macOS 挂载及信任检查。更新请求会让 GitHub 收到正常请求信息（例如 IP 地址）；Sparkle 的系统信息上报已关闭。
 
 ## 连接保护 / Connections
 
