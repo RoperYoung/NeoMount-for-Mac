@@ -2,7 +2,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">Your network drives, one click away.</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg"><strong>Download NeoMount 1.10.6</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg"><strong>Download NeoMount 1.10.7</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">Release notes</a> ·
   <a href="README.md">简体中文</a>
 </p>
@@ -26,7 +26,7 @@ Closing the main window keeps NeoMount available here.
 
 - **Five protocols:** SMB, WebDAV, FTP, SFTP and NFS.
 - **Paste an address:** fill in the protocol, host, port and path from a full URL. Unicode paths and custom ports are supported.
-- **Reconnect when needed:** choose a retry interval of 15 seconds, 30 seconds, 1 minute or 5 minutes. Manually disconnecting pauses retries for that connection.
+- **Reconnect when needed:** choose a retry interval of 15 seconds, 30 seconds, 1 minute or 5 minutes. Manually disconnected drives stay paused after relaunch, wake, and network recovery.
 - **Spot unavailable mounts:** checks whether the mounted directory can be read and offers Reconnect when needed. The old volume is unmounted normally first; busy disks stay mounted.
 - **Start your way:** launch at login and choose which servers should connect when the app starts.
 - **Take your settings with you:** import and export connections without including passwords.
@@ -43,7 +43,7 @@ Closing the main window keeps NeoMount available here.
 
 ### Install
 
-1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
+1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
 2. Open NeoMount from Applications and add a server.
 3. Optionally enable launch at login in Preferences and automatic connection for individual servers.
 

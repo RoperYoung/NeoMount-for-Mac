@@ -4,7 +4,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">把网络磁盘放进菜单栏。</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg"><strong>下载 NeoMount 1.10.6</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg"><strong>下载 NeoMount 1.10.7</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">版本记录</a> ·
   <a href="README.en.md">English</a>
 </p>
@@ -28,7 +28,7 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 
 - **五种协议**：SMB、WebDAV、FTP、SFTP、NFS。
 - **少填几遍地址**：粘贴完整链接，自动拆分协议、主机、端口和路径。支持中文路径与自定义端口。
-- **断线后再试**：重连间隔可选 15 秒、30 秒、1 分钟或 5 分钟。主动断开后不会反复连回来。
+- **断线后再试**：重连间隔可选 15 秒、30 秒、1 分钟或 5 分钟。主动断开后会保持暂停，应用重启、Mac 唤醒或网络恢复时也不会重新连接。
 - **识别失效挂载**：检查磁盘目录是否可读；失效时可点击“重新连接”。先正常卸载旧卷，磁盘忙时会提示，不会强制断开。
 - **按你的习惯启动**：可随 Mac 登录启动，也可以为每个服务器单独设置启动时连接。
 - **换台 Mac 也好迁移**：导入、导出连接配置，密码不包含在导出文件里。
@@ -51,7 +51,7 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 
 ### 安装
 
-1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.6/NeoMount-1.10.6-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
+1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
 2. 在应用程序文件夹中打开 NeoMount，添加你的服务器。
 3. 如果想开机就能用，在偏好设置中开启登录时启动，并给需要的连接打开启动自动连接。
 

@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>NeoMount</title>
         <item>
+            <title>1.10.7</title>
+            <pubDate>Wed, 11 Nov 2026 18:09:20 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.10.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!doctype html><html lang="zh-CN"><meta charset="utf-8"><h2>NeoMount 1.10.7</h2>
+<ul><li>手动关闭的连接会保持暂停。重新启动 NeoMount、Mac 唤醒或网络恢复时，应用会跳过这些连接。</li><li>再次打开连接开关即可解除暂停。卡片会显示该连接的启动自动连接状态。</li></ul>
+<p>升级后，请把不想自动连接的条目再关闭一次。旧版的手动暂停状态无法迁移。</p>
+<h2>English</h2><ul><li>Manually disconnected drives stay paused after relaunch, wake, or network recovery.</li><li>Switch a connection back on to resume it. Its card shows the current launch status.</li></ul>
+<p>After updating, switch off any drives you want to keep paused. Earlier versions did not save this state.</p></html>
+]]></description>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg" length="36526098" type="application/octet-stream" sparkle:edSignature="jptVEzLCf3nxUzXkdUUqHFbpvSGV6yCjZHzdYTy0ohMjzocHDCMd+0fa4t7MwdR4qJkAmAlgNs7t+67LegHxBQ=="/>
+        </item>
+        <item>
             <title>1.10.6</title>
             <pubDate>Thu, 29 Oct 2026 21:57:03 +0800</pubDate>
             <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
@@ -38,6 +54,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: gqSkM9qcG3vOFb9xxRV+bUWh3mjpwbz8yui0b39uifSz+5n2eP9aCzEQYhYrKDpwgadwrAIYKHKi4FYvX+fcCQ==
-length: 4395
+edSignature: vziwWsuVnnpClmXrmoO1uW5/kujwurORP4kTIpd6piHaKyy4zXBpP3cv+xbravHi4lCRTjVxrn1zw6JKvds6AA==
+length: 5995
 -->
