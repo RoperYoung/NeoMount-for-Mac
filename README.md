@@ -4,7 +4,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">把网络磁盘放进菜单栏。</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg"><strong>下载 NeoMount 1.10.7</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg"><strong>下载 NeoMount 1.10.8</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">版本记录</a> ·
   <a href="README.en.md">English</a>
 </p>
@@ -16,9 +16,11 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 
 <p align="center"><img src="assets/main-zh.jpg" width="900" alt="NeoMount 中文主窗口"></p>
 
+在左侧按协议筛选，或在右侧搜索名称与服务器地址。点标题旁的侧栏按钮可收起文字，只保留导航图标。
+
 ### 菜单栏（状态栏）
 
-<p align="center"><img src="assets/menubar-connected-zh.png" width="400" alt="NeoMount 菜单栏浮窗"></p>
+<p align="center"><img src="assets/menubar-1.10.8-zh.png" width="400" alt="NeoMount 菜单栏浮窗"></p>
 
 顶部硬盘图标的数字表示当前已连接数量，也可以在偏好设置中隐藏。点开图标，每个服务器的状态一目了然：用开关连接或断开，连接后点文件夹即可在访达中打开。底部可以添加服务器、进入完整管理窗口；更多菜单里可调整自动重连、重试间隔和外观。
 
@@ -30,28 +32,31 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 - **少填几遍地址**：粘贴完整链接，自动拆分协议、主机、端口和路径。支持中文路径与自定义端口。
 - **断线后再试**：重连间隔可选 15 秒、30 秒、1 分钟或 5 分钟。主动断开后会保持暂停，应用重启、Mac 唤醒或网络恢复时也不会重新连接。
 - **识别失效挂载**：检查磁盘目录是否可读；失效时可点击“重新连接”。先正常卸载旧卷，磁盘忙时会提示，不会强制断开。
-- **按你的习惯启动**：可随 Mac 登录启动，也可以为每个服务器单独设置启动时连接。
+- **按你的习惯启动**：可随 Mac 登录启动。偏好设置中的总开关控制启动挂载，每个连接也可单独选择。
 - **换台 Mac 也好迁移**：导入、导出连接配置，密码不包含在导出文件里。
-- **跟得上新版本**：内置更新检查，从本仓库下载更新，校验签名后再安装。
+- **跟得上新版本**：后台发现新版本时，菜单栏和偏好设置会显示提醒。允许系统通知后，也可点通知打开更新说明。
 
-<table>
-  <tr>
-    <td align="center"><img src="assets/form-zh.jpg" width="420" height="480" alt="添加连接"><br>添加连接</td>
-    <td align="center"><img src="assets/preferences-zh.jpg" width="360" height="480" alt="偏好设置"><br>偏好设置与更新</td>
-  </tr>
-</table>
+### 添加连接
+
+<p align="center"><img src="assets/form-zh.jpg" width="448" alt="添加连接表单，已从示例地址解析 WebDAV 主机及路径"></p>
+
+### 偏好设置
+
+<p align="center"><img src="assets/preferences-zh.jpg" width="900" alt="主窗口内的偏好设置，显示外观和启动挂载选项"></p>
 
 <details>
-<summary>英文界面</summary>
+<summary>深色模式与英文界面</summary>
+<br>
+<img src="assets/main-dark.jpg" width="900" alt="深色模式下收起侧栏的管理窗口">
 <br>
 <img src="assets/main-en.jpg" width="900" alt="NeoMount English interface">
 </details>
 
-<sub>截图来自 Mac 上实际运行的应用，仅保留应用窗口。菜单栏图展示两个已连接的磁盘；其余界面使用示例配置。</sub>
+<sub>截图来自 Mac 上运行的 1.10.8。窗口和菜单栏均使用示例连接。</sub>
 
 ### 安装
 
-1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
+1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
 2. 在应用程序文件夹中打开 NeoMount，添加你的服务器。
 3. 如果想开机就能用，在偏好设置中开启登录时启动，并给需要的连接打开启动自动连接。
 

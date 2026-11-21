@@ -2,7 +2,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">Your network drives, one click away.</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg"><strong>Download NeoMount 1.10.7</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg"><strong>Download NeoMount 1.10.8</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">Release notes</a> ·
   <a href="README.md">简体中文</a>
 </p>
@@ -14,9 +14,11 @@ Keep your NAS, shared folders and remote servers in one place. Connect with a sw
 
 <p align="center"><img src="assets/main-en.jpg" width="900" alt="NeoMount running on macOS"></p>
 
+Filter by protocol in the sidebar or search by name and server address. The button beside the page title collapses the sidebar to a column of icons.
+
 ### Menu bar
 
-<p align="center"><img src="assets/menubar-connected-zh.png" width="400" alt="NeoMount menu bar panel, shown in Chinese"></p>
+<p align="center"><img src="assets/menubar-1.10.8-en.png" width="400" alt="NeoMount menu bar panel"></p>
 
 The badge on the menu bar icon shows how many drives are connected; you can hide it in Preferences. Click the icon to see each server’s status, connect or disconnect with a switch, or open a connected drive in Finder. Add a server or open the full manager from the bottom row. The More menu gives quick access to auto-reconnect, retry intervals and appearance.
 
@@ -28,22 +30,29 @@ Closing the main window keeps NeoMount available here.
 - **Paste an address:** fill in the protocol, host, port and path from a full URL. Unicode paths and custom ports are supported.
 - **Reconnect when needed:** choose a retry interval of 15 seconds, 30 seconds, 1 minute or 5 minutes. Manually disconnected drives stay paused after relaunch, wake, and network recovery.
 - **Spot unavailable mounts:** checks whether the mounted directory can be read and offers Reconnect when needed. The old volume is unmounted normally first; busy disks stay mounted.
-- **Start your way:** launch at login and choose which servers should connect when the app starts.
+- **Start your way:** launch at login and use the global startup mounting switch alongside each drive’s individual setting.
 - **Take your settings with you:** import and export connections without including passwords.
-- **Stay up to date:** check for new releases in the app. Updates come from this repository and are verified before installation.
+- **Stay up to date:** background checks surface new releases in the menu bar panel and Preferences. Allow macOS notifications to open release notes directly from a notification.
 
-<table>
-  <tr>
-    <td align="center"><img src="assets/form-en.jpg" width="420" height="480" alt="Add Connection"><br>Add a connection</td>
-    <td align="center"><img src="assets/preferences-en.jpg" width="360" height="480" alt="Preferences"><br>Preferences and updates</td>
-  </tr>
-</table>
+### Add a connection
 
-<sub>Real app screenshots captured on a Mac, without desktop backgrounds. The menu bar panel shows two connected drives; the other views use example configurations.</sub>
+<p align="center"><img src="assets/form-en.jpg" width="448" alt="Add Connection after parsing a sample WebDAV address"></p>
+
+### Preferences
+
+<p align="center"><img src="assets/preferences-en.jpg" width="900" alt="Appearance and startup mounting settings inside the main window"></p>
+
+<details>
+<summary>Dark appearance with a collapsed sidebar (Chinese interface)</summary>
+<br>
+<img src="assets/main-dark.jpg" width="900" alt="Main window with the compact sidebar in dark appearance">
+</details>
+
+<sub>Captured from NeoMount 1.10.8 on a Mac using example connections.</sub>
 
 ### Install
 
-1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
+1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
 2. Open NeoMount from Applications and add a server.
 3. Optionally enable launch at login in Preferences and automatic connection for individual servers.
 
