@@ -6,6 +6,53 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>NeoMount</title>
         <item>
+            <title>1.10.10</title>
+            <pubDate>Sun, 22 Nov 2026 14:09:30 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.10.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body>
+<section lang="zh-CN"><h2>NeoMount 1.10.10</h2>
+<h3>1.10.10 更新</h3><ul>
+<li>「添加连接」按钮的右边缘与下方搜索框及卡片对齐。展开和收起侧栏时，右边距都保持一致。</li>
+<li>修正独立版的更新安装器配置。安装本版后，后续更新将使用 Sparkle 为非沙盒应用提供的安装方式。</li>
+</ul>
+<h3>1.10.9 界面调整</h3><ul>
+<li>菜单栏面板的底色现在与主窗口一致，包括顶部小尖角。切换浅色或深色外观时，整个面板会一起切换。</li>
+<li>侧栏收起按钮与右侧搜索框、设置卡片的左边缘对齐，展开和收起侧栏时都对齐。展开时，NeoMount 标志和名称比以前更大。</li>
+</ul>
+<h3>从 1.10.7 升级时也能用到的 1.10.8 功能</h3><ul>
+<li>可以按名称或服务器地址搜索连接，也可以按连接状态或协议筛选。侧栏可收起为图标，偏好设置在主窗口右侧打开，连接表单使用与设置卡片相同的底色。</li>
+<li>偏好设置新增启动自动挂载总开关。开启后，NeoMount 会尝试挂载各自启用了启动自动连接的服务。手动暂停的连接仍保持暂停。</li>
+<li>后台发现新版本时，菜单栏面板和偏好设置会显示提醒。允许系统通知后，点击通知即可查看更新说明。</li>
+<li>手动退出时，正在进行的连接、断开、保存、导入或导出可能中断。空闲时退出仍会正常卸载 FTP 和 SFTP 磁盘。</li>
+</ul>
+<p>如果旧版提示「连接到安装程序时出现错误」，请正常退出 NeoMount，打开本次发布的 DMG，将 NeoMount 拖入「应用程序」并选择替换，然后重新打开。已有连接配置会保留。使用 1.10.7 时，请从 Mac 菜单栏的 NeoMount 图标选择「… → 检查更新…」，再按提示安装并重启。如果已从旧版偏好设置发起更新，且点击安装后没有反应，请关闭偏好设置，再点一次「安装并重启应用」。</p>
+<p>适用于运行 macOS 13 或更高版本的 Apple Silicon Mac。应用与 DMG 均已通过 Apple 公证。</p></section>
+<section lang="en"><h2>English</h2>
+<h3>New in 1.10.10</h3><ul>
+<li>The right edge of Add Connection lines up with the search field and cards below, whether the sidebar is expanded or collapsed.</li>
+<li>Fixed the installer configuration for the direct-download edition. Once this version is installed, future updates use Sparkle’s installer for non-sandboxed apps.</li>
+</ul>
+<h3>Interface changes in 1.10.9</h3><ul>
+<li>The menu bar panel now matches the main window in light and dark appearances, all the way to the arrow at the top.</li>
+<li>The sidebar toggle lines up with the left edge of the search field and settings cards in both sidebar positions. The expanded sidebar has a larger NeoMount icon and name.</li>
+</ul>
+<h3>Also included for people upgrading from 1.10.7</h3><ul>
+<li>Version 1.10.8 added search by name or server address and filters for connection status and protocol. Collapse the sidebar to icons or open Preferences in the right pane. Connection forms use the same card background as Preferences.</li>
+<li>A global startup switch controls automatic mounting. Each service also needs its own startup option enabled. Manually paused connections stay paused.</li>
+<li>Background update checks show available releases in the menu bar panel and Preferences. If you allow macOS notifications, click one to open the release notes.</li>
+<li>Quitting manually can interrupt a connection, disconnection, save, import, or export. Quitting while idle still unmounts FTP and SFTP drives normally.</li>
+</ul>
+<p>If an earlier version reports an error connecting to the installer, quit NeoMount, open the DMG from this release, drag NeoMount into Applications, choose Replace, and reopen it. Your saved connections are retained. On 1.10.7, click the NeoMount icon in the Mac menu bar and choose … → Check for Updates… to install and relaunch. If you started the update from Preferences and the install button appears to do nothing, close NeoMount’s Preferences and click Install and Relaunch again.</p>
+<p>For Apple Silicon Macs running macOS 13 or later. Both the app and disk image are notarized by Apple.</p></section>
+</body></html>
+]]></description>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.10/NeoMount-1.10.10-arm64.dmg" length="36604431" type="application/octet-stream" sparkle:edSignature="SOIQ1Eze1IxezpNwBbSVVUWUAPjO/sMHxnau7ptBN3ZphZuhFZ58Ky5NnN/yr1IficfjH5ohnemne1wR6ALIDQ=="/>
+        </item>
+        <item>
             <title>1.10.9</title>
             <pubDate>Sun, 22 Nov 2026 13:42:56 +0800</pubDate>
             <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
@@ -58,25 +105,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg" length="36602852" type="application/octet-stream" sparkle:edSignature="23UcVG6TRo6/EbJowF52W8GWLrddQFwOVaWgDpkkBS6wPniC2/4MnGfbqLbfwRbehs475sOrhkjWL6VbJxdGBg=="/>
         </item>
-        <item>
-            <title>1.10.7</title>
-            <pubDate>Wed, 11 Nov 2026 18:09:20 +0800</pubDate>
-            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>1.10.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html><html lang="zh-CN"><meta charset="utf-8"><h2>NeoMount 1.10.7</h2>
-<ul><li>手动关闭的连接会保持暂停。重新启动 NeoMount、Mac 唤醒或网络恢复时，应用会跳过这些连接。</li><li>再次打开连接开关即可解除暂停。卡片会显示该连接的启动自动连接状态。</li></ul>
-<p>升级后，请把不想自动连接的条目再关闭一次。旧版的手动暂停状态无法迁移。</p>
-<h2>English</h2><ul><li>Manually disconnected drives stay paused after relaunch, wake, or network recovery.</li><li>Switch a connection back on to resume it. Its card shows the current launch status.</li></ul>
-<p>After updating, switch off any drives you want to keep paused. Earlier versions did not save this state.</p></html>
-]]></description>
-            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.7/NeoMount-1.10.7-arm64.dmg" length="36526098" type="application/octet-stream" sparkle:edSignature="jptVEzLCf3nxUzXkdUUqHFbpvSGV6yCjZHzdYTy0ohMjzocHDCMd+0fa4t7MwdR4qJkAmAlgNs7t+67LegHxBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lKrAeR6PPjxQU8NHlKYT8c6T5dswel/D/VoTA9vEiVSQaBAbZvz1KYUKQ3cuxg/jRdEslUHZxyCBp9IqTL/pAg==
-length: 7853
+edSignature: j20YiNUTJ7lpLhEWmcPeWqot7AvDmWE7/I52qkrj3gDeTL7wThm20LqBSZcrRbfKj4hdX+SHredEuZXu1UDfCQ==
+length: 11420
 -->
