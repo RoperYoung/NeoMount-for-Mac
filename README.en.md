@@ -2,7 +2,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">Your network drives, one click away.</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg"><strong>Download NeoMount 1.10.8</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.9/NeoMount-1.10.9-arm64.dmg"><strong>Download NeoMount 1.10.9</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">Release notes</a> ·
   <a href="README.md">简体中文</a>
 </p>
@@ -18,7 +18,7 @@ Filter by protocol in the sidebar or search by name and server address. The butt
 
 ### Menu bar
 
-<p align="center"><img src="assets/menubar-1.10.8-en.png" width="400" alt="NeoMount menu bar panel"></p>
+<p align="center"><img src="assets/menubar-1.10.9-en.png" width="400" alt="NeoMount menu bar panel"></p>
 
 The badge on the menu bar icon shows how many drives are connected; you can hide it in Preferences. Click the icon to see each server’s status, connect or disconnect with a switch, or open a connected drive in Finder. Add a server or open the full manager from the bottom row. The More menu gives quick access to auto-reconnect, retry intervals and appearance.
 
@@ -48,13 +48,15 @@ Closing the main window keeps NeoMount available here.
 <img src="assets/main-dark.jpg" width="900" alt="Main window with the compact sidebar in dark appearance">
 </details>
 
-<sub>Captured from NeoMount 1.10.8 on a Mac using example connections.</sub>
+<sub>Captured from NeoMount 1.10.9 on a Mac using example connections.</sub>
 
 ### Install
 
-1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
+1. [Download the DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.9/NeoMount-1.10.9-arm64.dmg), open it, and drag **NeoMount** into **Applications**.
 2. Open NeoMount from Applications and add a server.
 3. Optionally enable launch at login in Preferences and automatic connection for individual servers.
+
+**To update from 1.10.7 to 1.10.9**, click the NeoMount icon in the Mac menu bar, choose **… → Check for Updates…**, and follow the prompts to install and relaunch. If you started the update from Preferences and the install button appears to do nothing, close NeoMount’s Preferences and click the install button again.
 
 **Upgrading from 1.10.2 or earlier:** version 1.10.3 introduces a unified app identifier and requires a one-time DMG installation. Turn off launch at login in the old version, quit it, and replace NeoMount in Applications. Your connections, saved passwords and common preferences are retained. Re-enable launch at login in the new version if needed. Future releases support in-app updates.
 
