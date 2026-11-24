@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>NeoMount</title>
         <item>
+            <title>1.10.11</title>
+            <pubDate>Tue, 24 Nov 2026 16:36:05 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.10.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"></head><body><h2>NeoMount 1.10.11</h2><section lang="zh-Hans"><h3>简体中文</h3><ul><li>添加或编辑连接时，点「快速填写」旁的「帮助」即可查看五种协议的地址和八字段示例。可以直接填入示例，或复制 AI 提示词整理服务器资料，再粘贴解析。未知项可留空，密码可在本机补填。</li><li>FTP 和 SFTP 挂载前会核对远程目录。路径不存在或指向普通文件会提示错误，空目录和只读目录可以挂载。测试连通会明确显示端口是否可达，以及账号和目录的验证范围。</li><li>更换服务器时，配置写入失败会保留原地址与凭据。新增连接上限为 500 条，旧版超限列表仍可编辑，并可完整备份为多个 JSON 文件。</li></ul></section>
+<section lang="en"><h3>English</h3><ul><li>Open Help beside Quick setup when adding or editing a connection to see URLs and eight-field examples for all five protocols. Insert an example or copy an AI prompt, then paste and parse the result. Leave unknown fields blank and enter your password locally.</li><li>FTP and SFTP check the remote directory before mounting. Missing paths and regular files show an error. Empty and read-only directories are supported. Connection tests now show port reachability and which details still need verification.</li><li>If saving a new server address fails, the previous destination and credentials stay together. New connections are limited to 500. Larger lists from older versions can still be edited and backed up in full as multiple JSON files.</li></ul></section></body></html>
+]]></description>
+            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.11/NeoMount-1.10.11-arm64.dmg" length="36659413" type="application/octet-stream" sparkle:edSignature="PQMBp1/K3B2wkCMLveb+E/DjUoUI26GIjpVqlyf6HsijbPFvkwwj9Ja6YmkBxfSaRevjHPTeFo56EnYcRzmFAg=="/>
+        </item>
+        <item>
             <title>1.10.10</title>
             <pubDate>Sun, 22 Nov 2026 14:09:30 +0800</pubDate>
             <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
@@ -91,23 +104,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.9/NeoMount-1.10.9-arm64.dmg" length="36598109" type="application/octet-stream" sparkle:edSignature="okBxpTgvRSmQduznawDX7LEYImzDHAeXHRn5X3CcfqyT/F64GXkR074SDhCc4kjAN02OsMmr+8FNq1gJeA4+DQ=="/>
         </item>
-        <item>
-            <title>1.10.8</title>
-            <pubDate>Sun, 22 Nov 2026 01:09:31 +0800</pubDate>
-            <link>https://github.com/RoperYoung/NeoMount-for-Mac</link>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>1.10.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<!doctype html><html lang="zh-CN"><meta charset="utf-8"><h2>NeoMount 1.10.8</h2>
-<ul><li>主窗口支持搜索、折叠侧栏及内嵌偏好设置。连接表单与设置卡片使用相同底色。</li><li>启动时自动挂载可统一开关，手动暂停的连接保持暂停。</li><li>后台发现新版时在菜单栏、偏好设置及获准的系统通知中提醒。</li><li>手动退出时可以立即结束应用，尚未完成的操作可能中断。</li></ul>
-<h2 lang="en">English</h2><ul lang="en"><li>Search connections, collapse the sidebar, and open Preferences inside the main window. Forms now match the settings cards.</li><li>Control startup mounting with a global switch. Manually paused drives stay paused.</li><li>See available updates in the menu bar panel, Preferences, and optional macOS notifications.</li><li>Quitting manually can now interrupt an operation in progress.</li></ul></html>
-]]></description>
-            <enclosure url="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.8/NeoMount-1.10.8-arm64.dmg" length="36602852" type="application/octet-stream" sparkle:edSignature="23UcVG6TRo6/EbJowF52W8GWLrddQFwOVaWgDpkkBS6wPniC2/4MnGfbqLbfwRbehs475sOrhkjWL6VbJxdGBg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: j20YiNUTJ7lpLhEWmcPeWqot7AvDmWE7/I52qkrj3gDeTL7wThm20LqBSZcrRbfKj4hdX+SHredEuZXu1UDfCQ==
-length: 11420
+edSignature: Yyw8Hq/JA1PZZGqzzN/WBuooFciiGanCE/+ikGEsRNpWccUVnzMFMb7/9NlKF8sDD7PAIhWA+jXhzKCOY5CVCA==
+length: 12166
 -->

@@ -4,7 +4,7 @@
 <h1 align="center">NeoMount</h1>
 <p align="center">把网络磁盘放进菜单栏。</p>
 <p align="center">
-  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.10/NeoMount-1.10.10-arm64.dmg"><strong>下载 NeoMount 1.10.10</strong></a> ·
+  <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.11/NeoMount-1.10.11-arm64.dmg"><strong>下载 NeoMount 1.10.11</strong></a> ·
   <a href="https://github.com/RoperYoung/NeoMount-for-Mac/releases">版本记录</a> ·
   <a href="README.en.md">English</a>
 </p>
@@ -29,7 +29,7 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 ### 连接与管理
 
 - **五种协议**：SMB、WebDAV、FTP、SFTP、NFS。
-- **少填几遍地址**：粘贴完整链接，自动拆分协议、主机、端口和路径。支持中文路径与自定义端口。
+- 在**快速填写**旁打开帮助，可查看五种协议的地址和八字段模板。可填入示例，也可复制 AI 提示词整理服务器资料，再粘贴并点「解析」。密码可在本机补填。
 - **断线后再试**：重连间隔可选 15 秒、30 秒、1 分钟或 5 分钟。主动断开后会保持暂停，应用重启、Mac 唤醒或网络恢复时也不会重新连接。
 - **识别失效挂载**：检查磁盘目录是否可读；失效时可点击“重新连接”。先正常卸载旧卷，磁盘忙时会提示，不会强制断开。
 - **按你的习惯启动**：可随 Mac 登录启动。偏好设置中的总开关控制启动挂载，每个连接也可单独选择。
@@ -56,13 +56,13 @@ NAS、家里的共享文件夹、远程服务器，集中放在一个地方。�
 
 ### 安装
 
-1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.10/NeoMount-1.10.10-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
+1. [下载 DMG](https://github.com/RoperYoung/NeoMount-for-Mac/releases/download/v1.10.11/NeoMount-1.10.11-arm64.dmg)，打开后将 **NeoMount** 拖到 **Applications（应用程序）**。
 2. 在应用程序文件夹中打开 NeoMount，添加你的服务器。
 3. 如果想开机就能用，在偏好设置中开启登录时启动，并给需要的连接打开启动自动连接。
 
 旧版如果提示「连接到安装程序时出现错误」，请正常退出 NeoMount，用上方的 DMG 替换「应用程序」里的 NeoMount，再重新打开。已有连接配置会保留。
 
-**从 1.10.7 升级到 1.10.10** 时，可以直接点 Mac 菜单栏的 NeoMount 图标，选择「… → 检查更新…」，再按提示安装并重启。如果已经从旧版偏好设置发起更新，且点「安装并重启应用」后没有反应，关闭 NeoMount 的偏好设置，再点一次即可。
+**从 1.10.7 升级到 1.10.11** 时，可以直接点 Mac 菜单栏的 NeoMount 图标，选择「… → 检查更新…」，再按提示安装并重启。如果已经从旧版偏好设置发起更新，且点「安装并重启应用」后没有反应，关闭 NeoMount 的偏好设置，再点一次即可。
 
 **从 1.10.2 或更早版本升级：** 1.10.3 统一了应用标识，请下载 DMG 安装一次。先在旧版关闭登录启动并退出，再用新版替换应用程序中的 NeoMount；已有连接、已保存密码和常用偏好会保留，需要登录启动时在新版重新开启。之后可继续使用应用内自动更新。
 
